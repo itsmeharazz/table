@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+}
+
+body{
+     width: 100%;
+     padding: 0.5em;
+     background-color:rgb(204, 250, 252);
+}
+
+.Price-list{
+     width: 75%;
+     margin: 2em auto;
+     padding-top: 0.5em;
+     background-color: #fff;
+     border-radius: 1em;
+     box-shadow: 1px 1px 10px #999;
+     text-align: center;
+     overflow: hidden;
+     
+}
+
+
+.Price-list h1{
+     margin: 0.5em 0 1.5em;
+     font-size: 3em;
+     font-weight: 900;
+
+}
+
+
+.Price-list table{
+     width: 100%;
+     border-collapse: collapse;
+}
+
+table thead{
+     height: 3em;
+     background-color: #444;
+     color: #fff;
+}
+
+table tbody tr{
+     height: 3.5em;
+
+}
+
+table tbody tr:nth-child(even){
+     background-color: #f1f1f1;
+}
+
+
+table tbody tr:hover{
+     background-color: #d9d9d9;
+  }
+
+.Price-list .next{
+     height: 2.5em;
+     margin: 2em auto 0;
+ 
+
+}
+
+.next a{
+     margin: 0 0.2em;
+     text-decoration: none;
+     font-size: 1.2em;
+     font-weight: bold;
+}
+
+.next a:hover{
+     text-decoration: underline;
+}
